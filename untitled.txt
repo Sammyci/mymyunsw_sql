@@ -1,0 +1,18 @@
+CREATE VIEW subject_name AS
+proj1=# CREATE VIEW subject_name AS
+proj1-# select name,_prereq from Subjects
+proj1-# where =
+proj1=# CREATE VIEW subject_name AS select name,_prereq from Subjects where _prereq like '%COMP3%'
+proj1-# select name,_prereq from Subjects
+proj1-# where _prereq like '%COMP3%'
+select id form Courses where
+
+
+
+
+ ssh z5329760@login.cse.unsw.edu.au
+ ssh grieg
+ source /srvr/z5329760/env
+ pgs start
+ select check_q8();
+ select*from Q6_expected;
